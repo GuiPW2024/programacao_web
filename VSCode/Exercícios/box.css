@@ -1,0 +1,17 @@
+.box2 {
+    background-image: url(https://i.pinimg.com/736x/6b/bb/57/6bbb573ae6fcd113aed06c290284bfd6.jpg) ;
+    background-repeat: repeat;
+    color: white;
+}
+.box4 {
+    background-image: url(https://i.pinimg.com/736x/6b/bb/57/6bbb573ae6fcd113aed06c290284bfd6.jpg);
+    color: white;
+}
+
+.box1 {
+    border: 10px outset black;
+}
+
+.box3 {
+    border: 10px solid black;
+}

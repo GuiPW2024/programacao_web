@@ -1,0 +1,121 @@
+*{
+    margin: 10px;
+}
+
+header {
+    text-align: right;
+    background-color: rgb(9, 15, 44);
+    color: white;
+}
+
+nav{ 
+    height: 80px;
+    background-color: red;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.container,
+.container2 {
+    display: flex;
+    margin: 5px;
+}
+
+div.p1,
+div.p2,
+div.p4,
+div.p5 { 
+    margin: 5px;
+}
+.p1 {
+    width: 60%;
+    height: 500px;
+    color: black;
+    border-top: solid black;
+}
+
+.p2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid green;
+}
+
+.p3 {
+    width: 100%;
+    height: 300px;
+    margin: 5px;
+}
+
+.p4 {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p5 {
+    width: 70%;
+    height: 300px;
+    display: flex;
+}
+
+h1,h2 {
+    padding: 10px;
+}
+
+footer {
+    color: #241c24;
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+
+li{
+    display: inline-block;
+    padding: 30px;
+    border-right: #241c41 solid 0.4px;
+}
+
+ul, nav{
+    text-align: right;
+}
+
+li:hover{
+    background-color: #ffc61c; border-radius: 900px; transform: scale(0.7px);
+}
+
+nav:hover{
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/28/23/34/mountains-615428_1280.jpg);
+}
+
+a{
+    list-style-type: nome;
+}
+
+p, h3{
+    margin: 20px;
+    text-align: justify;
+}
+
+.imag1, .imag2{
+    width: 40%; margin: 10px;position: relative;
+}
+
+.imag3 {
+    width: 100%; display: flex;
+}
+
+.t-urso{
+    position: absolute;
+    color: wheat;
+    margin: 10px;
+    font-size: 35px;
+}
+
+
